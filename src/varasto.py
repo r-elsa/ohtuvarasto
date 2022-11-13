@@ -5,8 +5,6 @@ class Varasto:
             self.saldo = 0.0
         elif alku_saldo <= tilavuus:
             self.saldo = alku_saldo
-
-            
         else: self.saldo = tilavuus
 
     def paljonko_mahtuu(self):
